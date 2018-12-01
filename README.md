@@ -1,4 +1,4 @@
-# SM2
+# Flarum SM2 Extension
 
 A simple beta 8 compatible extension which turns an audio URL into a clickable / playable link. Brought to you by SoundManager2, a popular JavaScript audio library.
 
