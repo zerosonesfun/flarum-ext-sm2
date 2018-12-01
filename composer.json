@@ -13,7 +13,7 @@
             "title": "SM2",
             "icon": {
                 "name": "fas fa-volume-up",
-                "backgroundColor": "#fff",
+                "backgroundColor": "#ddd",
                 "color": "#000"
             }
         }
