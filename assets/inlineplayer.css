@@ -1,0 +1,37 @@
+a.sm2_link {
+ /* default state: "a playable link" */
+ border-left:6px solid #999;
+ padding-left:4px;
+ padding-right:4px;
+}
+
+a.sm2_link:hover {
+ /* default (inactive) hover state */
+ border-left-color:#333;
+}
+
+
+a.sm2_playing {
+ /* "now playing" */
+ border-left-color:#6666ff;
+ background-color:#000;
+ color:#fff;
+ text-decoration:none;
+}
+
+a.sm2_playing:hover {
+ /* "clicking will now pause" */
+ border-left-color:#cc3333;
+}
+
+a.sm2_paused {
+ /* "paused state" */
+ background-color:#666;
+ color:#fff;
+ text-decoration:none;
+}
+
+a.sm2_paused:hover {
+ /* "clicking will resume" */
+ border-left-color:#33cc33;
+}
