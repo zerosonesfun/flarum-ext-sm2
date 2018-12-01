@@ -1,0 +1,21 @@
+{
+    "name": "zerosonesfun/flarum-ext-sm2",
+    "description": "Play audio URLs",
+    "type": "flarum-extension",
+    "require": {
+        "flarum/core": "0.1.0-beta.8"
+    },
+    "autoload": {
+        "psr-4": {"ZerosOnesFun\\Sm2\\": "src/"}
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "SM2",
+            "icon": {
+                "name": "fas fa-volume-up",
+                "backgroundColor": "#fff",
+                "color": "#000"
+            }
+        }
+    }
+}
