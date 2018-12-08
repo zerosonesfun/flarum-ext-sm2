@@ -26,4 +26,5 @@ Now go forth and spread music across your Flarums. Go! Now!
 
 ## To do
 
+~~Ensure player loads without having to refresh the page (gosh darn it Flarum).~~ Done! :D
 Make the player prettier.
