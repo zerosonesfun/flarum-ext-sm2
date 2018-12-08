@@ -9,9 +9,15 @@ A simple beta 8 compatible extension which turns an audio URL into a clickable /
 ## Upgrade
 
 `composer update zerosonesfun/flarum-ext-sm2`
+`php flarum cache:clear`
+Also, clear your browser cache and cookies.
+Also, clear things like your cloudflare cache if you are using a service like that.
+Basically, clear everything after an upgrade.
 
 ## Usage
 
-Simply paste your audio URL into a post. You might have to refresh the page the first time you post, and/or you might need to do `php flarum cache:clear`, and/or clear your browser cache/cookies.
+Simply paste your audio URL into a post. Or, create a normal link to the audio file using any Flarum compatible BBcode or Markdown.
 
-Now go forth and spread music across your Flarums.
+Now go forth and spread music across your Flarums. Go! Now!
+
+### Created with stress and love by Bungalow Billy aka 010101 aka zerosonesfun.
