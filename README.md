@@ -8,8 +8,10 @@ A simple beta 8 compatible extension which turns an audio URL into a clickable /
 
 ## Upgrade
 
-`composer update zerosonesfun/flarum-ext-sm2`
-`php flarum cache:clear`
+~~~
+composer update zerosonesfun/flarum-ext-sm2`
+php flarum cache:clear
+~~~
 Also, clear your browser cache and cookies.
 Also, clear things like your cloudflare cache if you are using a service like that.
 Basically, clear everything after an upgrade.
