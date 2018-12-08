@@ -23,3 +23,7 @@ Simply paste your audio URL into a post. Or, create a normal link to the audio f
 Now go forth and spread music across your Flarums. Go! Now!
 
 ### Created with stress and love by Bungalow Billy aka 010101 aka zerosonesfun.
+
+## To do
+
+Make the player prettier.
