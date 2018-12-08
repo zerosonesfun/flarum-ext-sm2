@@ -3,7 +3,9 @@
 /*
  * This file is part of Flarum.
  *
- * (c) Toby Zerner <toby.zerner@gmail.com>
+ * Flarum is (c) Toby Zerner <toby.zerner@gmail.com>
+ *
+ * This SM2 extension was created by Bungalow Billy for ennuily.com
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -15,6 +17,6 @@ use Flarum\Frontend\Document;
 return [
     (new Extend\Frontend('forum'))
         ->content(function (Document $document) {
-            $document->head[] = '<script src="/assets/extensions/zerosonesfun-sm2/soundmanager2.min.js"></script><script src="/assets/extensions/zerosonesfun-sm2/inlineplayer.js"></script><link rel="stylesheet" type="text/css" href="/assets/extensions/zerosonesfun-sm2/inlineplayer.css">';
+            $document->head[] = '<script src="/assets/extensions/zerosonesfun-sm2/soundmanager2.min.js"></script><script src="/assets/extensions/zerosonesfun-sm2/inlineplayer.js"></script><link rel="stylesheet" type="text/css" href="/assets/extensions/zerosonesfun-sm2/inlineplayer.css"><script src="/assets/extensions/zerosonesfun-sm2/forum.js"></script>';
         })
 ];
