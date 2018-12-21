@@ -1,37 +1,45 @@
 a.sm2_link {
- /* default state: "a playable link" */
- border-left:6px solid #999;
- padding-left:4px;
- padding-right:4px;
+ display:inline-block;
+ padding-left:22px;
+ min-height:16px;
+ vertical-align: middle;
+ background-color:#336699;
+ border-radius:3px;
+ padding:3px 3px 3px 25px;
+ min-width:19em;
+ _width:19em; /* IE 6 */
+ text-decoration:none;
+ font-weight:normal;
+ color:#f6f9ff;
+}
+
+a.sm2_link {
+ transition: background-color 0.1s linear;
+}
+
+a.sm2_link, a.sm2_paused:hover,
+a.sm2_link:hover {
+ background-image:url(/assets/extensions/zerosonesfun-sm2/play.png);
+ background-position:3px 50%;
+ background-repeat:no-repeat;
 }
 
 a.sm2_link:hover {
- /* default (inactive) hover state */
- border-left-color:#333;
-}
-
-
-a.sm2_playing {
- /* "now playing" */
- border-left-color:#6666ff;
- background-color:#000;
+ /* default hover color, if you'd like.. */
+ background-color:#003366;
  color:#fff;
- text-decoration:none;
-}
-
-a.sm2_playing:hover {
- /* "clicking will now pause" */
- border-left-color:#cc3333;
 }
 
 a.sm2_paused {
- /* "paused state" */
- background-color:#666;
- color:#fff;
- text-decoration:none;
+ background-color:#999;
 }
 
 a.sm2_paused:hover {
- /* "clicking will resume" */
- border-left-color:#33cc33;
+ background:#003366 url(/assets/extensions/zerosonesfun-sm2/play.png) no-repeat 3px 50%;
+}
+
+a.sm2_playing,
+a.sm2_playing:hover {
+ background:#003366 url(/assets/extensions/zerosonesfun-sm2/pause.png) no-repeat 3px 50%;
+ text-decoration:none;
 }
