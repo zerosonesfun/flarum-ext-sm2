@@ -28,4 +28,4 @@ Now go forth and spread music across your Flarums. Go! Now!
 
 1) ~~Ensure player loads without having to refresh the page (gosh darn it Flarum).~~
 
-2) -- Make the player prettier. --
+2) ~Make the player prettier.~
