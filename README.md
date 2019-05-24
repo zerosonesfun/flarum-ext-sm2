@@ -21,11 +21,3 @@ Basically, clear everything after an upgrade.
 Simply paste your audio URL into a post. Or, create a normal link to the audio file using any Flarum compatible BBcode or Markdown.
 
 Now go forth and spread music across your Flarums. Go! Now!
-
-### Created with stress and love by Bungalow Billy aka 010101 aka zerosonesfun.
-
-## To do
-
-1) ~~Ensure player loads without having to refresh the page (gosh darn it Flarum).~~
-
-2) ~Make the player prettier.~
