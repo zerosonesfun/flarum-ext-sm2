@@ -1,5 +1,5 @@
 {
-    "name": "zerosonesfun/flarum-ext-sm2",
+    "name": "zerosonesfun/sm2",
     "description": "Play audio URLs",
     "type": "flarum-extension",
     "require": {
