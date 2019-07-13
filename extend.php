@@ -5,7 +5,7 @@
  *
  * Flarum is (c) Toby Zerner <toby.zerner@gmail.com>
  *
- * This SM2 extension was created by Bungalow Billy for ennuily.com
+ * This SM2 extension was created by Billy Wilcosky.
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
