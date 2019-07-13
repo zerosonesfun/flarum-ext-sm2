@@ -4,12 +4,12 @@ A Flarum forum extension which turns an audio URL into a clickable / playable li
 
 ## Install
 
-`composer require zerosonesfun/sm2`
+`composer require zerosonesfun/flarum-ext-sm2`
 
 ## Upgrade
 
 ~~~
-composer update zerosonesfun/sm2
+composer update zerosonesfun/flarum-ext-sm2
 php flarum cache:clear
 ~~~
 Also, clear your browser cache and cookies.
