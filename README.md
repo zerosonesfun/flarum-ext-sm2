@@ -1,15 +1,15 @@
 # Flarum SM2 Extension
 
-A simple beta 8+ compatible Flarum extension which turns an audio URL into a clickable / playable link. Brought to you by SoundManager2, a popular JavaScript audio library.
+A Flarum forum extension which turns an audio URL into a clickable / playable link. Brought to you by SoundManager2, a popular JavaScript audio library.
 
 ## Install
 
-`composer require zerosonesfun/flarum-ext-sm2`
+`composer require zerosonesfun/sm2`
 
 ## Upgrade
 
 ~~~
-composer update zerosonesfun/flarum-ext-sm2
+composer update zerosonesfun/sm2
 php flarum cache:clear
 ~~~
 Also, clear your browser cache and cookies.
@@ -20,4 +20,4 @@ Basically, clear everything after an upgrade.
 
 Simply paste your audio URL into a post. Or, create a normal link to the audio file using any Flarum compatible BBcode or Markdown.
 
-Now go forth and spread music across your Flarums. Go! Now!
+Now go forth and spread music across your Flarums.
