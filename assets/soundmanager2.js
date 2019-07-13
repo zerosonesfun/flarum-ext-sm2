@@ -68,9 +68,9 @@ function SoundManager(smURL, smID) {
     flashVersion: 8,                  // flash build to use (8 or 9.) Some API features require 9.
     debugMode: false,                  // enable debugging output (console.log() with HTML fallback)
     debugFlash: false,                // enable debugging output inside SWF, troubleshoot Flash/browser issues
-    useConsole: true,                 // use console.log() if available (otherwise, writes to #soundmanager-debug element)
-    consoleOnly: true,                // if console is being used, do not create/write to #soundmanager-debug
-    waitForWindowLoad: false,         // force SM2 to wait for window.onload() before trying to call soundManager.onload()
+    useConsole: false,                 // use console.log() if available (otherwise, writes to #soundmanager-debug element)
+    consoleOnly: false,                // if console is being used, do not create/write to #soundmanager-debug
+    waitForWindowLoad: true,         // force SM2 to wait for window.onload() before trying to call soundManager.onload()
     bgColor: '#ffffff',               // SWF background color. N/A when wmode = 'transparent'
     useHighPerformance: false,        // position:fixed flash movie can help increase js/flash speed, minimize lag
     flashPollingInterval: null,       // msec affecting whileplaying/loading callback frequency. If null, default of 50 msec is used.
