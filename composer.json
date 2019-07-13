@@ -2,6 +2,7 @@
     "name": "zerosonesfun/flarum-ext-sm2",
     "description": "Play audio URLs",
     "type": "flarum-extension",
+    "license": "MIT",
     "require": {
         "flarum/core": "^0.1.0-beta.8"
     },
