@@ -1,17 +1,29 @@
 {
     "name": "zerosonesfun/flarum-ext-sm2",
     "description": "Play audio URLs.",
+    "keywords": [
+        "flarum"
+    ],
     "type": "flarum-extension",
     "license": "MIT",
     "require": {
-        "flarum/core": "^0.1.0-beta.8"
+        "flarum/core": ">=0.1.0-beta.8 <0.1.0-beta.12"
     },
+    "authors": [
+        {
+            "name": "Billy Wilcosky",
+            "email": "wilcosky@gmail.com",
+            "role": "Creator"
+        }
+    ],
     "autoload": {
-        "psr-4": {"ZerosOnesFun\\Sm2\\": "src/"}
+        "psr-4": {
+            "ZerosOnesFun\\Sm2\\": "src/"
+        }
     },
     "extra": {
         "flarum-extension": {
-            "title": "SM2",
+            "title": "SM2 (Audio)",
             "icon": {
                 "name": "fas fa-volume-up",
                 "backgroundColor": "#ddd",
