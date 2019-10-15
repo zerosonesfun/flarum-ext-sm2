@@ -3,7 +3,7 @@ a.sm2_link {
  min-height:30px;
  vertical-align:middle;
  background-color:transparent;
- padding:3px 8px 3px 25px;
+ padding:4px 8px 0px 30px;
  width:100%;
  text-decoration:none;
  overflow:hidden;
@@ -14,14 +14,14 @@ a.sm2_link {
 a.sm2_link, a.sm2_paused:hover,
 a.sm2_link:hover {
  background-image:url(/assets/extensions/zerosonesfun-sm2/play.png);
- background-position:3px 50%;
+ background-position:0px 50%;
  background-repeat:no-repeat;
 }
 a.sm2_paused:hover {
- background:url(/assets/extensions/zerosonesfun-sm2/play.png) no-repeat 3px 50%;
+ background:url(/assets/extensions/zerosonesfun-sm2/play.png) no-repeat 0px 50%;
 }
 a.sm2_playing,
 a.sm2_playing:hover {
- background:url(/assets/extensions/zerosonesfun-sm2/pause.png) no-repeat 3px 50%;
+ background:url(/assets/extensions/zerosonesfun-sm2/pause.png) no-repeat 0px 50%;
  text-decoration:none;
 }
