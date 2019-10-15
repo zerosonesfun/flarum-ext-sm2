@@ -3,18 +3,13 @@ a.sm2_link {
  padding-left:22px;
  min-height:16px;
  vertical-align: middle;
- background-color:#336699;
- border-radius:3px;
+ background-color:none;
  padding:3px 8px 3px 25px;
- min-width:19em;
- _width:19em; /* IE 6 */
+ width:100%;
  text-decoration:none;
- font-weight:normal;
- color:#f6f9ff;
-}
-
-a.sm2_link {
- transition: background-color 0.1s linear;
+ overflow: hidden;
+ white-space: nowrap;
+ text-overflow: ellipsis;
 }
 
 a.sm2_link, a.sm2_paused:hover,
@@ -24,22 +19,12 @@ a.sm2_link:hover {
  background-repeat:no-repeat;
 }
 
-a.sm2_link:hover {
- /* default hover color, if you'd like.. */
- background-color:#003366;
- color:#fff;
-}
-
-a.sm2_paused {
- background-color:#999;
-}
-
 a.sm2_paused:hover {
- background:#003366 url(/assets/extensions/zerosonesfun-sm2/play.png) no-repeat 3px 50%;
+ background:url(/assets/extensions/zerosonesfun-sm2/play.png) no-repeat 3px 50%;
 }
 
 a.sm2_playing,
 a.sm2_playing:hover {
- background:#003366 url(/assets/extensions/zerosonesfun-sm2/pause.png) no-repeat 3px 50%;
+ background:url(/assets/extensions/zerosonesfun-sm2/pause.png) no-repeat 3px 50%;
  text-decoration:none;
 }
