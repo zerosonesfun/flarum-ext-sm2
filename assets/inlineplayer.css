@@ -1,15 +1,15 @@
 a.sm2_link {
  display:inline-block;
- padding-left:22px;
  min-height:16px;
  vertical-align:middle;
  background-color:transparent;
- padding:3px 8px 3px 25px;
+ padding:3px 8px 3px 0px;
  width:100%;
  text-decoration:none;
  overflow:hidden;
  white-space:nowrap;
  text-overflow:ellipsis;
+ border-bottom:none;
 }
 
 a.sm2_link, a.sm2_paused:hover,
