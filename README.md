@@ -19,5 +19,3 @@ php flarum cache:clear
 
 - [Packagist](https://packagist.org/packages/zerosonesfun/flarum-ext-sm2)
 - [GitHub](https://github.com/zerosonesfun/flarum-ext-sm2)
-
-An extension by [Billy Wilcosky](https://wilcosky.com).
