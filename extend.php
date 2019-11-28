@@ -1,10 +1,10 @@
 <?php
 
 /*
- * This file is part of Flarum.
- *
+ * sm2 is a Flarum extension created by Billy Wilcosky.
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
+ * For instructions, please view the README file.
  */
 
 use Flarum\Extend;
