@@ -2,20 +2,22 @@
 
 A [Flarum](http://flarum.org) extension. Turns audio URLs or links into minimal audio players.
 
-### Installation
+### Install
 
 ```sh
 composer require zerosonesfun/flarum-ext-sm2
 ```
 
-### Updating
+### Update
 
 ```sh
 composer update zerosonesfun/flarum-ext-sm2
 php flarum cache:clear
+clear browser cache
 ```
+### Remove
 
-### Links
-
-- [Packagist](https://packagist.org/packages/zerosonesfun/flarum-ext-sm2)
-- [GitHub](https://github.com/zerosonesfun/flarum-ext-sm2)
+```sh
+composer remove zerosonesfun/flarum-ext-sm2
+delete folder within your public assets extensions directory
+```
