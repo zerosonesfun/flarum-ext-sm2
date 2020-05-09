@@ -6,6 +6,7 @@ A [Flarum](http://flarum.org) extension. Turns audio URLs or links into minimal 
 
 ```sh
 composer require zerosonesfun/flarum-ext-sm2
+Depending on how your Flarum is installed you may have to manually edit the file paths in the extend.php file.
 ```
 
 ### Update
