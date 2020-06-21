@@ -8,4 +8,5 @@ a.sm2_link::before {
 font-family:"Font Awesome 5\ Free";
 content:"\f58f";
 margin-right:3px;
+margin-left:1px;
 }
