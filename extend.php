@@ -13,7 +13,6 @@ use Flarum\Frontend\Document;
 return [
     (new Extend\Frontend('forum'))
         ->content(function (Document $document) {
-            var siteURL = app.forum.attribute('baseUrl');
-            $document->head[] = '<script src="'+siteURL+'/assets/extensions/zerosonesfun-sm2/soundmanager2.js"></script><script src="'+siteURL+'/assets/extensions/zerosonesfun-sm2/inlineplayer.js"></script><link rel="stylesheet" type="text/css" href="'+siteURL+'/assets/extensions/zerosonesfun-sm2/inlineplayer.css"><script src="'+siteURL+'/assets/extensions/zerosonesfun-sm2/reboot.js"></script>';
+            $document->head[] = '<script src="../assets/extensions/zerosonesfun-sm2/soundmanager2.js"></script><script src="../assets/extensions/zerosonesfun-sm2/inlineplayer.js"></script><link rel="stylesheet" type="text/css" href="../assets/extensions/zerosonesfun-sm2/inlineplayer.css"><script src="../assets/extensions/zerosonesfun-sm2/reboot.js"></script>';
         })
 ];
