@@ -5,7 +5,7 @@ white-space:nowrap;
 text-overflow:ellipsis;
 }
 a.sm2_link::before {
-font-family: "Font Awesome 5\ Free";
-content: "\f58f";
-margin-right: 3px;
+font-family:"Font Awesome 5\ Free";
+content:"\f58f";
+margin-right:3px;
 }
