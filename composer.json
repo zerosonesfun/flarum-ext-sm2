@@ -1,10 +1,8 @@
 {
     "name": "zerosonesfun/flarum-ext-sm2",
-    "description": "Play audio URLs.",
-    "keywords": [
-        "flarum"
-    ],
+    "description": "Automatic URL to minimal inline audio player.",
     "type": "flarum-extension",
+    "keywords": ["discussion, audio"],
     "license": "MIT",
     "authors": [
         {
@@ -12,8 +10,20 @@
             "role": "Creator"
         }
     ],
+    "support": {
+        "issues": "https://github.com/zerosonesfun/flarum-ext-sm2/issues",
+        "source": "https://github.com/zerosonesfun/flarum-ext-sm2",
+        "forum": "https://discuss.flarum.org"
+    },
+    "homepage": "https://www.wilcosky.com",
+    "funding": [
+        {
+            "type": "website",
+            "url": "https://www.wilcosky.com"
+        }
+    ],
     "require": {
-        "flarum/core": ">=0.1.0-beta.14 <0.1.0-beta.15"
+        "flarum/core": "^0.1.0-beta.15"
     },
     "autoload": {
         "psr-4": {
@@ -22,7 +32,8 @@
     },
     "extra": {
         "flarum-extension": {
-            "title": "SM2 (Audio)",
+            "title": "Audio (SM2)",
+            "category": "features",
             "icon": {
                 "name": "fas fa-volume-up",
                 "backgroundColor": "#ddd",
