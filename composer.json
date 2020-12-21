@@ -33,7 +33,7 @@
     "extra": {
         "flarum-extension": {
             "title": "Audio (SM2)",
-            "category": "features",
+            "category": "feature",
             "icon": {
                 "name": "fas fa-volume-up",
                 "backgroundColor": "#ddd",
