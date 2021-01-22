@@ -2,7 +2,7 @@
     "name": "zerosonesfun/flarum-ext-sm2",
     "description": "Automatic URL to minimal inline audio player.",
     "type": "flarum-extension",
-    "keywords": ["discussion, audio"],
+    "keywords": ["discussion", "audio"],
     "license": "MIT",
     "authors": [
         {
